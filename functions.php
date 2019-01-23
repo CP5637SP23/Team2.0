@@ -12,8 +12,6 @@ add_action('wp_enqueue_scripts', 'Iankirkwood');
 'primary' => __('Primary Menu'),
 'footer' => __('Footer Menu'),
 ));
-
-
 //adding featured image
 add_theme_support('post-thumblines');
 }
